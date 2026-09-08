@@ -27,11 +27,11 @@ Navigating local and intercity transport in Karnataka (trains and KSRTC buses) o
 ### System Diagram
 ```mermaid
 graph TD
-    UI[Frontend (Next.js)] --> API[API Routes]
-    API --> AI[AI Service (Vercel AI)]
-    API --> DB[(Database (Prisma))]
-    API --> Ext[External APIs / Demo Data]
-    UI --> Map[Map Component (Leaflet)]
+    UI["Frontend (Next.js)"] --> API["API Routes"]
+    API --> AI["AI Service (Vercel AI)"]
+    API --> DB[("Database (Prisma)")]
+    API --> Ext["External APIs / Demo Data"]
+    UI --> Map["Map Component (Leaflet)"]
 ```
 
 ## Running Locally
